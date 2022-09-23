@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ibmstyle.css">
+    <title>IBM Assigment</title>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzK7ok97bO4GTUZsXkY-urXi87GUDYmY5w7ooFfCLYuz8NaFz66SOsUmBtNsDq1L5wCZQ&usqp=CAU">
+</head>
+
+<body>
+    <div class="container">
+        <h6 style="margin-top: 20px; margin-left:20px;font-weight: bold; font-size: 20px;">SRI PRADEEPA K</h6>
+        <div class="image">
+
+            <img src="./photo.jpeg" alt="" height="120px" class="card-img-left">
+
+            <div class="myinfo">
+                <p style="margin-top: -35px;font-weight: bold;">Email&#160:&#160ksripradeepa@gmail.com</p>
+                <p> Phone&#160:&nbsp9344316817&#160</p>
+                <p>Age&#160:&nbsp21
+                    Location&#160:&#160Muthur
+                    Address&#160:&#160Vilaketthi,&#160Erode&#160-&nbsp638109.</p>
+            </div>
+        </div>
+        <br>
+        <div class="selfintro" style="margin-bottom: 5px;">
+            <h3>
+                ABOUT ME :
+            </h3>
+            <p class="objective">
+                <span style="padding-left: 24px;">I'm a student. At present im searching for a job where i can implement
+                    my knowledge and skills to contribute the company progress as well as my career too for that I have
+                    a knowledge about basics of c also I have good communication skill too.
+            </p>
+        </div>
+        <br>
+        <h3>ACADEMICS :</h3>
+        <div class="Course" style="margin-bottom: 5px;">
+            <p>&#x2022 In SSLC with 94.8%</p><progress value="94.8" max="100"></progress>
+            <p> &#x2022 In HSC with 70.5%</p><progress value="70.5" max="100"> 80% </progress>
+        </div><br>
+        <h3>TECHNICAL SKILLS :</h3>
+        <div class="skills">
+            <p>&#x2022 C</p>
+            <div class="containerNew">
+                <div class="skill C">80%</div>
+            </div>
+            <p>&#x2022 Java</p>
+            <div class="containerNew">
+                <div class="skill java">70%</div>
+            </div>
+        </div>
+        <br>
+        <h3>PERSONAL STRENGTH :</h3>
+        <P class="skills">&#x2022 Self motivative person</P>
+        <P class="skills">&#x2022 Positive attitude</P>
+        <P class="skills">&#x2022 Flexible person</P>
+        <BR>
+        <h3>WORKSHOPS AND VALUE ADDED COURSES :</h3>
+        <div class="Course">
+            <p> &#x2022 Completed Mini Project on Arudino</p>
+            <p> &#x2022 Internship on Artificial intelligence - SAHAS DIGI NXT SOLUTIONS,Karur.</p>
+            <p>&#x2022 Workshop on Python - I Grandee software technologies,Karur.
+            </p>
+        </div><br>
+        <h3>LANGUAGES KNOWN :</h3>
+        <div class="Course">
+            <p>&#x2022 Tamil</p><progress value="90" max="100"></progress>
+            <p>&#x2022 English</p><progress value="80" max="100"></progress>
+        </div>
+
+    </div>
+</body>
+</html>
+<style>
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+.image{
+display:grid;
+grid-template-columns:30px 100px;
+justify-content: space-between;
+width: 300px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 30px;
+}
+.container{
+/* width: 700px; */
+/* height: 650px;   */
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px;
+background-color: transparent;
+color:black;
+background-color:rgb(140, 251, 214);
+box-shadow:0px 0px 5px 2px rgb(23, 195, 126);
+border-radius: 7px;
+}
+p{
+color: rgb(0, 0, 0);
+}
+body{
+font-family: convergence;
+/* background-image: linear-gradient(to right, rgb(0, 51, 255), rgb(71, 36, 249)); */
+background-color: lightcyan;
+display: flex;
+position: relative;
+justify-content: center; 
+}
+.skills{
+margin-left: 30px;
+}
+.myinfo{ 
+margin-top: 55px;
+margin-left: 80px;
+font-size: 17px;
+ 
+}
+.objective{
+padding-left: 30px;
+padding-right: 20px;
+justify-content: center;
+/* width: 500px; */
+}
+h3{
+padding-left: 12px;
+font-weight: 600;
+font-size: 15px;
+}
+img{
+border: 2px solid rgb(255, 255, 255);
+margin-top: 20px;
+margin-left: 50px;
+width: 100px;
+height: 150;
+}
+p{
+margin: 0;
+padding:0;
+}
+.Course{
+margin-left: 30px;
+}
+.containerNew {
+    background-color:rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(24, 66, 255);
+    color: white;
+    padding: 2px;
+    text-align: right;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.C {
+    width: 80%;
+}
+
+.java {
+    width: 70%;
+}
+</style>
